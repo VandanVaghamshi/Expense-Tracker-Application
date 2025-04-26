@@ -52,10 +52,9 @@ A comprehensive web application for tracking daily expenses with user authentica
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone [repository-url]
+   git clone VandanVaghamshi/Expense-Tracker-Application
    cd expense-tracker
-   ```
+ 
 
 2. Configure database:
    - Create a new MySQL database

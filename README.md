@@ -52,27 +52,28 @@ A comprehensive web application for tracking daily expenses with user authentica
 ## Installation
 
 1. Clone the repository:
+   ```
    git clone VandanVaghamshi/Expense-Tracker-Application
    cd expense-tracker
- 
+   ```
 
-2. Configure database:
+3. Configure database:
    - Create a new MySQL database
    - Import the schema from `database/expense_tracker.sql`
    - Update database credentials in `config/database.php`
    [Reference: MySQL Import/Export](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)
 
-3. Install dependencies:
+4. Install dependencies:
    ```bash
    composer install
    ```
 
-4. Configure web server:
+5. Configure web server:
    - Point document root to the project directory
    - Ensure mod_rewrite is enabled for Apache
    [Reference: Apache Configuration](https://httpd.apache.org/docs/2.4/mod/mod_rewrite.html)
 
-5. Set permissions:
+6. Set permissions:
    - Ensure write permissions for logs directory
    - Configure file ownership appropriately
 
